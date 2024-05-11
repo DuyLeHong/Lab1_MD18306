@@ -18,4 +18,8 @@ class SinhVienModel (var tenSV: String, var mssv: String, var diemTB: Float) {
         }
         return thongtin
     }
+
+    override fun toString(): String {
+        return "SinhVienModel(tenSV='$tenSV', mssv='$mssv', diemTB=$diemTB, daTotNghiep=$daTotNghiep, tuoi=$tuoi)"
+    }
 }
