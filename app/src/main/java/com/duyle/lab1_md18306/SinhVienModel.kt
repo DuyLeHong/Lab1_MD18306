@@ -1,6 +1,6 @@
 package com.duyle.lab1_md18306
 
-class SinhVienModel (var tenSV: String, var mssv: String, var diemTB: Float) {
+internal class SinhVienModel (var tenSV: String, var mssv: String, var diemTB: Float) {
     var daTotNghiep : Boolean? = null
     var tuoi : Int? = null
 
